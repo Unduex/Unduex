@@ -1,0 +1,46 @@
+//おちんちんメッセージ//
+
+public class protintin {
+		
+		public static void main(String[] args) {
+		
+		int x = status();
+		reaction(x);
+	}
+
+
+	
+		
+	//ちんちんステータス//
+	public static int status() {
+		System.out.println(" おちんちんの大きさを入力してください");
+		int x = new java.util.Scanner(System.in).nextInt();
+		
+		System.out.println("おちんちんの大き");
+		System.out.println(x);
+		System.out.println("センチです");		
+		return x;
+	}
+		
+	//反応//	
+	public static void reaction(int x) {
+		
+		if(x < 10) {
+			System.out.println("出直せ粗チン");
+    	} else if ( x > 10 && x < 17) {
+			System.out.println("標準的な大きさです");
+		} else if ( x >= 17 && x < 20) {
+			System.out.println("うっ出る・・・！");
+		} 
+		 else if (x >=20 && x < 25) {
+			System.out.println("すごく・・・大きいです・・・");
+		} else if (x >= 25 ) {
+			System.out.println("チンコビンビン神ですよ");
+		} else {
+			System.out.println("使わなければどうということはない！");
+		}
+		return;
+	}
+		
+
+}
